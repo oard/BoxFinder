@@ -7,10 +7,6 @@ May 29, 2023
 
 This project contains the following files:
 
-pdf.zip: a compressed directory named pdf with a set of subdirectories
-for the PDF files, one subdrectory per box, named with the box number.
-Unzip this file.
-
 titles.txt: The titles associated with each pdf file, which are used
 to form title queries.  In this and other files, the first column is
 the file name for the associated .pdf file (without the '.pdf' part).
@@ -36,3 +32,5 @@ others have only folder metadata, and many have both.
 main.py: The Python code for boxfinder.  Note that your local
 directory preix needs to be specified as a constant at the top of the
 file.
+
+You will also need the PDF files, which are available at https://users.umiacs.umd.edu/~oard/BoxFinder/pdf.zip: a compressed directory named pdf with a set of subdirectories for the PDF files, one subdrectory per box, named with the box number. Download and unzip this file.
